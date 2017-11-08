@@ -2,6 +2,9 @@
 
 AI player for 2048 Game, the player writen in C# programing language.
 
+![2048](https://user-images.githubusercontent.com/8437989/32567805-12a394ec-c4c5-11e7-8893-aed7550b97d6.PNG)
+
+
 I used <a href="https://en.wikipedia.org/wiki/Iterative_deepening_depth-first_search">Iterative Deepening algorithm</a> with best score heuristic to select the next movement.
 
 <table>
