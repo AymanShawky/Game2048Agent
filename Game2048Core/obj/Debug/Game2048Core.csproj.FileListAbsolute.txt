@@ -1,0 +1,20 @@
+C:\Users\fujitsui5\Documents\Visual Studio 2013\Projects\Game2048Agent\Game2048Core\bin\Debug\Game2048Core.dll
+C:\Users\fujitsui5\Documents\Visual Studio 2013\Projects\Game2048Agent\Game2048Core\bin\Debug\Game2048Core.pdb
+C:\Users\fujitsui5\Documents\Visual Studio 2013\Projects\Game2048Agent\Game2048Core\obj\Debug\Game2048Core.dll
+C:\Users\fujitsui5\Documents\Visual Studio 2013\Projects\Game2048Agent\Game2048Core\obj\Debug\Game2048Core.pdb
+C:\Users\fujitsui5\Documents\Visual Studio 2013\Projects\Game2048Agent\Game2048Core\obj\Debug\Game2048Core.csprojResolveAssemblyReference.cache
+E:\Game2048Agent\Game2048Core\bin\Debug\Game2048Core.dll
+E:\Game2048Agent\Game2048Core\bin\Debug\Game2048Core.pdb
+E:\Game2048Agent\Game2048Core\obj\Debug\Game2048Core.csprojResolveAssemblyReference.cache
+E:\Game2048Agent\Game2048Core\obj\Debug\Game2048Core.dll
+E:\Game2048Agent\Game2048Core\obj\Debug\Game2048Core.pdb
+G:\Game2048Agent\Game2048Core\bin\Debug\Game2048Core.dll
+G:\Game2048Agent\Game2048Core\bin\Debug\Game2048Core.pdb
+G:\Game2048Agent\Game2048Core\obj\Debug\Game2048Core.csprojResolveAssemblyReference.cache
+G:\Game2048Agent\Game2048Core\obj\Debug\Game2048Core.dll
+G:\Game2048Agent\Game2048Core\obj\Debug\Game2048Core.pdb
+C:\Users\shawkya\Desktop\Game2048Agent\Game2048Core\bin\Debug\Game2048Core.dll
+C:\Users\shawkya\Desktop\Game2048Agent\Game2048Core\bin\Debug\Game2048Core.pdb
+C:\Users\shawkya\Desktop\Game2048Agent\Game2048Core\obj\Debug\Game2048Core.dll
+C:\Users\shawkya\Desktop\Game2048Agent\Game2048Core\obj\Debug\Game2048Core.pdb
+C:\Users\shawkya\Desktop\Game2048Agent\Game2048Core\obj\Debug\Game2048Core.csprojResolveAssemblyReference.cache
