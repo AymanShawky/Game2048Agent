@@ -64,6 +64,7 @@ namespace Game2048Agent
                 GuiTiles[i].Background = _tileStyle.BackgraundColor;
                 GuiTiles[i].Foreground = _tileStyle.TextColor;
             }
+
             lblScore.Content = _game.Score.ToString();
             lblMoves.Content = movements;
         }
@@ -93,6 +94,7 @@ namespace Game2048Agent
         private void btnNewGame_Click(object sender, RoutedEventArgs e)
         {
             _game = new GameManager();
+            movements = 0;
             UpdateGui();
         }
         bool isAIpalyer = false;
@@ -116,6 +118,7 @@ namespace Game2048Agent
                     isAIpalyer = false;
                     MessageBox.Show("Game Over!");
                     _game = new GameManager();
+                    movements = 0;
                     UpdateGui();
                     btnAiAgent.Content = "Start AI Player";
                 }   
