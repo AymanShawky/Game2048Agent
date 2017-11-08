@@ -1,0 +1,40 @@
+﻿<Window x:Class="Game2048Agent.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="2048 AI Agent" Height="404" Width="681" KeyDown="Window_KeyDown">
+    <Grid Margin="0,0,2,8">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="506*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="Tile12" Content="1" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60" Width="60" BorderThickness="1" BorderBrush="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="12" Margin="69,262,0,0"/>
+        <Label x:Name="Tile08" Content="2" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60" Width="60" BorderThickness="1" BorderBrush="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="12" Margin="69,192,0,0"/>
+        <Label x:Name="Tile04" Content="3" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60" Width="60" BorderThickness="1" BorderBrush="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="12" Margin="69,122,0,0"/>
+        <Label x:Name="Tile00" Content="4" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60" Width="60" BorderThickness="1" BorderBrush="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="12" Margin="69,52,0,0"/>
+        <Label x:Name="Tile01" Content="5" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60" Width="60" BorderThickness="1" BorderBrush="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="12" RenderTransformOrigin="4.303,1.701" Margin="139,52,0,0"/>
+        <Label x:Name="Tile05" Content="6" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60" Width="60" BorderThickness="1" BorderBrush="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="12" RenderTransformOrigin="4.303,1.701" Margin="139,122,0,0"/>
+        <Label x:Name="Tile09" Content="7" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60" Width="60" BorderThickness="1" BorderBrush="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="12" RenderTransformOrigin="4.303,1.701" Margin="139,192,0,0"/>
+        <Label x:Name="Tile13" Content="8" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60" Width="60" BorderThickness="1" BorderBrush="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="12" RenderTransformOrigin="4.303,1.701" Margin="139,262,0,0"/>
+        <Label x:Name="Tile14" Content="9" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60" Width="60" BorderThickness="1" BorderBrush="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="12" Margin="208,262,0,0"/>
+        <Label x:Name="Tile10" Content="10" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60" Width="60" BorderThickness="1" BorderBrush="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="12" Margin="208,192,0,0"/>
+        <Label x:Name="Tile06" Content="11" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60" Width="60" BorderThickness="1" BorderBrush="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="12" Margin="208,122,0,0"/>
+        <Label x:Name="Tile02" Content="12" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60" Width="60" BorderThickness="1" BorderBrush="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="12" Margin="208,52,0,0"/>
+        <Label x:Name="Tile03" Content="13" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60" Width="60" BorderThickness="1" BorderBrush="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="12" RenderTransformOrigin="4.303,1.701" Margin="277,52,0,0"/>
+        <Label x:Name="Tile07" Content="14" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60" Width="60" BorderThickness="1" BorderBrush="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="12" RenderTransformOrigin="4.303,1.701" Margin="277,122,0,0"/>
+        <Label x:Name="Tile11" Content="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60" Width="60" BorderThickness="1" BorderBrush="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="12" RenderTransformOrigin="4.303,1.701" Margin="277,192,0,0"/>
+        <Label x:Name="Tile15" Content="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60" Width="60" BorderThickness="1" BorderBrush="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="12" RenderTransformOrigin="4.303,1.701" Margin="277,262,0,0"/>
+
+        <Label Content="Score:" HorizontalAlignment="Left" Margin="68,17,0,0" VerticalAlignment="Top" Height="38" Width="65" FontSize="16"/>
+        <Label x:Name="lblScore" Content="0" HorizontalAlignment="Left" Margin="133,18,0,0" VerticalAlignment="Top" Height="27" Width="86" FontSize="16"/>
+        <Button x:Name="btnNewGame" Content="New Game" HorizontalAlignment="Left" Margin="262,25,0,0" VerticalAlignment="Top" Width="75" Click="btnNewGame_Click"/>
+        <Button x:Name="btnAiAgent" Content="Start AI Player" HorizontalAlignment="Left" Margin="377,63,0,0" VerticalAlignment="Top" Width="86" Click="btnAIpalyer_Click"/>
+        <Slider x:Name="sldSpeed" HorizontalAlignment="Left" Margin="441,112,0,0" VerticalAlignment="Top" Width="126" Minimum="100" Value="1" SmallChange="100" Maximum="900" TickPlacement="BottomRight" TickFrequency="100" IsSnapToTickEnabled="True"/>
+        <Label Content="Speed" HorizontalAlignment="Left" Margin="385,112,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.48,0.567"/>
+        <Label Content="Depth" HorizontalAlignment="Left" Margin="385,141,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.48,0.567"/>
+        <Slider x:Name="sldDepth" HorizontalAlignment="Left" Margin="441,146,0,0" VerticalAlignment="Top" Width="126" Minimum="0" Value="0" SmallChange="1" Maximum="5" TickPlacement="BottomRight" TickFrequency="1" IsSnapToTickEnabled="True"/>
+        <Label Content="{Binding ElementName=sldDepth, Path=Value, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="572,143,0,0" VerticalAlignment="Top"/>
+        <Label Content="Movements : " HorizontalAlignment="Left" Margin="385,176,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.48,0.567"/>
+        <Label x:Name="lblMoves" Content="0" HorizontalAlignment="Left" Margin="457,176,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.415,0.431" Width="110"/>
+
+    </Grid>
+</Window>

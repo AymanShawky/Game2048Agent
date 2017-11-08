@@ -1,0 +1,45 @@
+c:\users\fujitsui5\documents\visual studio 2013\Projects\Game2048Agent\Game2048Agent\bin\Debug\Game2048Agent.exe.config
+c:\users\fujitsui5\documents\visual studio 2013\Projects\Game2048Agent\Game2048Agent\bin\Debug\Game2048Agent.exe
+c:\users\fujitsui5\documents\visual studio 2013\Projects\Game2048Agent\Game2048Agent\bin\Debug\Game2048Agent.pdb
+c:\users\fujitsui5\documents\visual studio 2013\Projects\Game2048Agent\Game2048Agent\obj\Debug\Game2048Agent.csprojResolveAssemblyReference.cache
+c:\users\fujitsui5\documents\visual studio 2013\Projects\Game2048Agent\Game2048Agent\obj\Debug\MainWindow.baml
+c:\users\fujitsui5\documents\visual studio 2013\Projects\Game2048Agent\Game2048Agent\obj\Debug\MainWindow.g.cs
+c:\users\fujitsui5\documents\visual studio 2013\Projects\Game2048Agent\Game2048Agent\obj\Debug\App.g.cs
+c:\users\fujitsui5\documents\visual studio 2013\Projects\Game2048Agent\Game2048Agent\obj\Debug\Game2048Agent_MarkupCompile.cache
+c:\users\fujitsui5\documents\visual studio 2013\Projects\Game2048Agent\Game2048Agent\obj\Debug\Game2048Agent.g.resources
+c:\users\fujitsui5\documents\visual studio 2013\Projects\Game2048Agent\Game2048Agent\obj\Debug\Game2048Agent.Properties.Resources.resources
+c:\users\fujitsui5\documents\visual studio 2013\Projects\Game2048Agent\Game2048Agent\obj\Debug\Game2048Agent.csproj.GenerateResource.Cache
+c:\users\fujitsui5\documents\visual studio 2013\Projects\Game2048Agent\Game2048Agent\obj\Debug\Game2048Agent.exe
+c:\users\fujitsui5\documents\visual studio 2013\Projects\Game2048Agent\Game2048Agent\obj\Debug\Game2048Agent.pdb
+C:\Users\fujitsui5\Documents\Visual Studio 2013\Projects\Game2048Agent\Game2048Agent\bin\Debug\Game2048Core.dll
+C:\Users\fujitsui5\Documents\Visual Studio 2013\Projects\Game2048Agent\Game2048Agent\bin\Debug\Game2048Core.pdb
+E:\Game2048Agent\Game2048Agent\bin\Debug\Game2048Agent.exe.config
+E:\Game2048Agent\Game2048Agent\obj\Debug\Game2048Agent.exe
+E:\Game2048Agent\Game2048Agent\obj\Debug\Game2048Agent.pdb
+E:\Game2048Agent\Game2048Agent\bin\Debug\Game2048Agent.exe
+E:\Game2048Agent\Game2048Agent\bin\Debug\Game2048Agent.pdb
+E:\Game2048Agent\Game2048Agent\bin\Debug\Game2048Core.dll
+E:\Game2048Agent\Game2048Agent\bin\Debug\Game2048Core.pdb
+E:\Game2048Agent\Game2048Agent\obj\Debug\Game2048Agent.csprojResolveAssemblyReference.cache
+E:\Game2048Agent\Game2048Agent\obj\Debug\MainWindow.baml
+E:\Game2048Agent\Game2048Agent\obj\Debug\MainWindow.g.cs
+E:\Game2048Agent\Game2048Agent\obj\Debug\App.g.cs
+E:\Game2048Agent\Game2048Agent\obj\Debug\Game2048Agent_MarkupCompile.cache
+E:\Game2048Agent\Game2048Agent\obj\Debug\Game2048Agent.g.resources
+E:\Game2048Agent\Game2048Agent\obj\Debug\Game2048Agent.Properties.Resources.resources
+E:\Game2048Agent\Game2048Agent\obj\Debug\Game2048Agent.csproj.GenerateResource.Cache
+G:\Game2048Agent\Game2048Agent\bin\Debug\Game2048Agent.exe.config
+G:\Game2048Agent\Game2048Agent\obj\Debug\Game2048Agent.exe
+G:\Game2048Agent\Game2048Agent\obj\Debug\Game2048Agent.pdb
+G:\Game2048Agent\Game2048Agent\bin\Debug\Game2048Agent.exe
+G:\Game2048Agent\Game2048Agent\bin\Debug\Game2048Agent.pdb
+G:\Game2048Agent\Game2048Agent\bin\Debug\Game2048Core.dll
+G:\Game2048Agent\Game2048Agent\bin\Debug\Game2048Core.pdb
+G:\Game2048Agent\Game2048Agent\obj\Debug\Game2048Agent.csprojResolveAssemblyReference.cache
+G:\Game2048Agent\Game2048Agent\obj\Debug\MainWindow.baml
+G:\Game2048Agent\Game2048Agent\obj\Debug\MainWindow.g.cs
+G:\Game2048Agent\Game2048Agent\obj\Debug\App.g.cs
+G:\Game2048Agent\Game2048Agent\obj\Debug\Game2048Agent_MarkupCompile.cache
+G:\Game2048Agent\Game2048Agent\obj\Debug\Game2048Agent.g.resources
+G:\Game2048Agent\Game2048Agent\obj\Debug\Game2048Agent.Properties.Resources.resources
+G:\Game2048Agent\Game2048Agent\obj\Debug\Game2048Agent.csproj.GenerateResource.Cache
